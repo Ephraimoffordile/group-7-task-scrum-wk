@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+:root {
+  --civic-green-100: rgba(0, 135, 81, 1);
+  --civic-green-200: rgba(0, 135, 81, 0.9);
+  --civic-green-300: rgba(0, 135, 81, 0.8);
+  --civic-green-400: rgba(0, 135, 81, 0.7);
+  --civic-green-500: rgba(0, 135, 81, 0.6);
+  --civic-green-600: rgba(0, 135, 81, 0.5);
+  --civic-green-700: rgba(0, 135, 81, 0.4);
+  --civic-green-800: rgba(0, 135, 81, 0.3);
+  --civic-green-900: rgba(0, 135, 81, 0.2);
+  --civic-green-darker: #006642;
+
+  --civic-gray-100: rgba(109, 109, 109, 1);
+  --civic-gray-200: rgba(109, 109, 109, 0.9);
+  --civic-gray-300: rgba(109, 109, 109, 0.8);
+  --civic-gray-400: rgba(109, 109, 109, 0.7);
+  --civic-gray-500: rgba(109, 109, 109, 0.6);
+  --civic-gray-600: rgba(109, 109, 109, 0.5);
+  --civic-gray-700: rgba(109, 109, 109, 0.4);
+  --civic-gray-800: rgba(109, 109, 109, 0.3);
+  --civic-gray-900: rgba(109, 109, 109, 0.2);
+  --civic-gray-darker: #4A4A4A;
+
+  --teal-green: #00BFA6;
+  --sunrise-yellow: #F4A300;
+  --char-black: #1E1E1E;
+  --neutral-gray: #757575;
+  --civic-red: #E53935;
+  --link-blue:  #0000FF;
+  --cloud-white:  #F5F5F0;
+}
+
+
+@media (max-width: 768px) {
+ 
+
+  .content-container {
+    width: 90%; 
+    margin:20px 0 auto; 
+    padding: 20px 0;
+  }
+}

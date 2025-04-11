@@ -1,0 +1,64 @@
+.location-selection {
+    padding: 20px;
+    text-align: center;
+    margin-top:70px;
+    background-color:var(--teal-green);
+    color:var(--cloud-white);
+  }
+  
+  .location-selection h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .location-selection .dropdowns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .location-selection .dropdown {
+    margin: 0 10px;
+    text-align: left;
+  }
+  
+  .location-selection label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .location-selection select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .location-selection .instruction {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+
+  @media (max-width: 768px) {
+    .location-selection {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .location-selection h2 {
+      font-size: 1.5em;
+    }
+  
+    .location-selection select {
+      width: 90%; 
+      margin: 10px 0; 
+      padding: 10px; 
+    }
+  
+    .location-selection button {
+      width: 90%; 
+      margin: 10px 0; 
+      padding: 10px 20px;
+    }
+  }

@@ -1,0 +1,80 @@
+.hero2 {
+  background-color: var(--civic-green-darker); 
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.hero2-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: var(--cloud-white); 
+}
+
+.hero2-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: var(--cloud-white); 
+}
+
+
+.hero2-buttons button {
+  padding: 12px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: white;
+}
+
+.hero2-buttons .button-find {
+  background-color: var(--civic-green-100); 
+}
+
+.hero2-buttons .button-offices {
+  background-color: var(--civic-green-100);
+}
+
+.hero2-buttons .button-report {
+  background-color: var(--civic-green-100); 
+}
+
+.location-icon, .search-icon, .report-icon {
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .hero2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero2-content h1 {
+    font-size: 1.8em; 
+  }
+
+  .hero2-content p {
+    font-size: 1em; 
+  }
+
+  .hero2-buttons {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .hero2-buttons button {
+    width: 90%; 
+    margin: 10px 0; 
+  }
+
+  .location-icon,
+  .search-icon,
+  .report-icon {
+    width: 25px; 
+  }
+}

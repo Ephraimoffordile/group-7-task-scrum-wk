@@ -1,5 +1,5 @@
 .hero {
-    background-color: #2E7D32; 
+    background-color: rgb(2, 34, 3); 
     color: white;
     padding: 80px 20px;
     text-align: center;
@@ -34,7 +34,7 @@
   }
   
   .hero .search-button {
-    background-color: #4CAF50; 
+    background-color:rgb(2, 34, 3); 
     color: white;
     border: none;
     padding: 12px 20px;
