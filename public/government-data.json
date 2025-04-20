@@ -1,0 +1,50 @@
+{
+    "data": {
+        "abuja": {
+            "executive": {
+                "governor": "President Bola Ahmed Tinubu",
+                "deputyGovernor": "Vice President Kashim Shettima"
+            },
+            "legislature": {
+                "speaker": "Senate President Godswill Akpabio"
+            }
+        },
+        "abia": {
+            "executive": {
+                "governor": "Governor Alex Otti",
+                "deputyGovernor": "Deputy Governor Ikechukwu Emetu"
+            },
+            "legislature": {
+                "speaker": "Speaker Emmanuel Emeruwa"
+            }
+        },
+        "lagos": {
+            "executive": {
+                "governor": "Governor Babajide Sanwo-Olu",
+                "deputyGovernor": "Deputy Governor Obafemi Hamzat"
+            },
+            "legislature": {
+                "speaker": "Speaker Mudashiru Obasa"
+            }
+        },
+     
+        "kano": {
+          "executive":{
+            "governor": "Governor Abba Kabir Yusuf",
+            "deputyGovernor": "Deputy Governor Abdulsalam Gwarzo"
+          },
+          "legislature":{
+            "speaker": "Speaker Jibrin Ismail Falgore"
+          }
+        },
+        "rivers": {
+            "executive": {
+                "governor": "Governor Siminalayi Fubara",
+                "deputyGovernor": "Deputy Governor Ngozi Odu"
+            },
+            "legislature": {
+                "speaker": "Speaker Victor Jumboh"
+            }
+        }
+    }
+}

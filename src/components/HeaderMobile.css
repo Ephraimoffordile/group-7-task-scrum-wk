@@ -1,0 +1,32 @@
+/* HeaderMobile.css */
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--civic-green-900); 
+  }
+  
+  .logo-mobile {
+    width: 120px;
+    height: auto;
+  }
+  
+  .nav-icon {
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: var(--civic-green-900)
+  }

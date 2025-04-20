@@ -1,0 +1,130 @@
+{
+    "states": [
+      {
+        "state": "Abia",
+        "lgas": [
+          "Aba North",
+          "Aba South",
+          "Arochukwu",
+          "Bende",
+          "Ikwuano",
+          "Isiala Ngwa North",
+          "Isiala Ngwa South",
+          "Isukwuato",
+          "Obi Ngwa",
+          "Ohafia",
+          "Osisioma",
+          "Ugwunagbo",
+          "Ukwa East",
+          "Ukwa West",
+          "Umuahia North",
+          "Umuahia South"
+        ]
+      },
+      {
+        "state": "Adamawa",
+        "lgas": [
+          "Demsa",
+          "Fufore",
+          "Ganye",
+          "Girei",
+          "Gombi",
+          "Guyuk",
+          "Hong",
+          "Jada",
+          "Lamurde",
+          "Madagali",
+          "Maiha",
+          "Mayo-Belwa",
+          "Michika",
+          "Mubi North",
+          "Mubi South",
+          "Numan",
+          "Shelleng",
+          "Song",
+          "Toungo",
+          "Yola North",
+          "Yola South"
+        ]
+      },
+      {
+        "state": "Lagos",
+        "lgas": [
+          "Agege",
+          "Ajeromi-Ifelodun",
+          "Alimosho",
+          "Amuwo-Odofin",
+          "Apapa",
+          "Badagry",
+          "Epe",
+          "Eti-Osa",
+          "Ibeju-Lekki",
+          "Ifako-Ijaye",
+          "Ikeja",
+          "Ikorodu",
+          "Kosofe",
+          "Lagos Island",
+          "Lagos Mainland",
+          "Mushin",
+          "Ojo",
+          "Oshodi-Isolo",
+          "Somolu",
+          "Surulere"
+        ]
+      },
+      {
+        "state": "Abuja",
+        "lgas": ["Abaji", "Bwari", "Gwagwalada", "Kuje", "Municipal Area Council"]
+      }
+    ],
+    "representatives": [
+      {
+        "id": 1,
+        "name": "Senator Bola Ahmed Tinubu",
+        "position": "President",
+        "level": "federal",
+        "state": "Abuja",
+        "lga": null,
+        "contact": {
+          "phone": "+234...",
+          "email": "president@example.com"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Hon. Mudashiru Obasa",
+        "position": "Speaker",
+        "level": "state",
+        "state": "Lagos",
+        "lga": null,
+        "contact": {
+          "phone": "+234...",
+          "email": "speaker.lagos@example.com"
+        }
+      }
+    ],
+    "offices": [
+      {
+        "id": 1,
+        "name": "Federal Ministry of Health",
+        "level": "federal",
+        "state": "Abuja",
+        "contact": {
+          "address": "Federal Secretariat, Abuja",
+          "phone": "+234...",
+          "email": "info@health.gov.ng"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Lagos State Ministry of Education",
+        "level": "state",
+        "state": "Lagos",
+        "contact": {
+          "address": "Lagos State Secretariat, Ikeja",
+          "phone": "+234...",
+          "email": "education@lagosstate.gov.ng"
+        }
+      }
+    ]
+  }

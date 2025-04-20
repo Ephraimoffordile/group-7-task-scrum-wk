@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--civic-green-darker);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--cloud-white); 
+  font-size: 1em;
+}
+
+.nav-link:hover {
+  color: var(--link-blue); 
+}
